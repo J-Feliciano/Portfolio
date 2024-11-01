@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.love-light-regular {
+    font-family: "Love Light", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nova-round-regular {
+    font-family: "Nova Round", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.lalezar-regular {
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+
+
+body{
+    color: #FFFF;
+    font-family: "Lato", sans-serif;
+    background-color: #1E1C26;
+
+}
+
+main{
+    width: 100%;
+}
+
+#guarda-txtduplo{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding-bottom: 5px;
+}
+.TxtDuplo{
+    color: #FFFF;
+    font-family: "Nova Round", system-ui;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+    width: 150px;
+}
+.TxtDuplo span{
+    background: linear-gradient(90deg, rgba(143,129,180,1) 0%, rgba(88,70,140,1) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Nova Round", system-ui;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    font-size: 30px;
+    z-index: -1;
+}
+header{
+    margin: auto;
+    margin-top: 20px;
+    width: 1000px;
+    height: 80px;
+    max-width: 1000px;
+    background-color: rgba(44, 38, 68, 0.753);
+    border-radius: 100px ;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    top: 20px;
+}
+header ul li, header a{
+    text-decoration: none;  
+    list-style: none;
+    color: white;
+    font-weight: 350;
+    text-decoration: none;
+    font-family: inter;
+}
+header ul{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+#H-imgs{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+#H-Imgs img{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 0 10px;
+}
+
+.Inicio{
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0px 10px 20px 5px #221d33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.TypingText{
+    color: white;
+    font-size: 100px;
+    font-family: "Nova Round", system-ui;
+    padding-bottom: 300px;
+}
+#Tptxt-blur{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+}
+/* ----------------------------------------------- */
+#M-Sobre-mim{
+    padding-top: 50px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+}
+#SbM-foto{
+    width: 350px;
+    height: 350px;
+    background-color: #f5f5f5;
+    position: relative;
+    border-radius: 100%;
+}
+#SbM-foto>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+   
+}
+#SbM-dots{
+    z-index: -1;
+    position: absolute;
+    top: 120px;
+    left: -20px;
+}
+#SbM-blur{
+    z-index: -2;
+    position: absolute;
+    top: -90px;
+    left: -130px;
+}
+
+#SbM-txt .TxtDuplo{
+    width: 180px;
+}
+#SbM-txt{
+    margin-left: 100px;
+    width: 400px;
+    font-size: 20px;
+}
+#SbM-txt div:last-child{
+    margin-left: 120px;
+}
+/* ---------------------------------------------- */
+
+
+
+
+@media screen and (max-width: 1300px){
+    header{
+        display: none;
+    }
+
+    .Inicio{
+        width: 100%;
+        height: 100vh;
+        box-shadow: 0px 10px 20px 5px #221d33;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .TypingText{
+        color: white;
+        font-size: 40px;
+        font-family: "Nova Round", system-ui;
+        padding-bottom: 100px;
+    }
+    #Tptxt-blur{
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+    }
+    #Tptxt-blur img{
+        width: 90%;
+    }
+}
