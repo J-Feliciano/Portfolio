@@ -55,34 +55,3 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 //-----------------------------------------------------------------------------------//
-
-let trilho = document.getElementById('trilho')
-let body = document.querySelector('body')
-
-trilho.addEventListener('click',()=>{
-    trilho.classList.toggle('light')
-    headerDark.classList.toggle('light')
-    inicio.classList.toggle('light')
-    body.classList.toggle('light')
-    txtsbm.classList.toggle('light')
-    txtduplo.classList.toggle('light')
-    habilidades.classList.toggle('light')
-    Projetos.classList.toggle('light')
-    mformcontato.classList.toggle('light')
-})
-
-// --------------------------------------------
-
-window.sr = ScrollReveal({ reset: true});
-
-sr.reveal('.habguardaicon', {
-    rotate: {x: 30, y: 0, z: 0},    
-    duration : 1200
-});
-
-sr.reveal('.P-projeto', {
-    rotate: {x: 30, y: 0, z: 0},    
-    duration : 1200
-});
-
-

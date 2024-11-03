@@ -1,0 +1,324 @@
+/* margin: auto; iguala os lados */
+body{
+    font-family: "Lato", sans-serif ;
+    margin: 0;
+    color: white;
+}
+
+@media(x){
+    
+}
+
+.light-mode{
+    background-color: #DDD9EE;
+}
+body{
+    background-color: #1E1C26;
+}
+main{
+    width: 100%;
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.nova-round-regular {
+    font-family: "Nova Round", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+.lalezar-regular {
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+#guarda-txtduplo{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding-bottom: 5px;
+}
+.TxtDuplo{
+    color: #FFFF;
+    font-family: "Nova Round", system-ui;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+    width: 150px;
+}
+.TxtDuplo span{
+    background: linear-gradient(90deg, rgba(143,129,180,1) 0%, rgba(88,70,140,1) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Nova Round", system-ui;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    font-size: 30px;
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: auto;
+    width: 50vw;
+    height: 8vh;
+    background-color:rgba(44, 38, 68, 0.753);
+    border-radius: 50vh;
+    top: 3%;
+    left: 25%;
+    right: 25%;
+    z-index: 3;
+}
+
+header ul li, header a{
+    text-decoration: none;  
+    list-style: none;
+    color: white;
+    font-weight: 350;
+    text-decoration: none;
+    font-family: Inter;
+
+}
+header ul{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+#H-imgs{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+.Inicio{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Imagens/background\ dark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px 20px 5px #221d33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TypingText{
+    color: white;
+    font-size: 100px;
+    font-family: "Nova Round", system-ui;
+}
+
+#M-Sobre-Mim{
+    padding-top: 50px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+}
+#SbM-foto{
+    width: 350px;
+    height: 350px;
+    background-color: #f5f5f5;
+    position: relative;
+    border-radius: 100%;
+}
+#SbM-foto>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+   
+}
+#SbM-dots{
+    z-index: -1;
+    position: absolute;
+    top: 120px;
+    left: -20px;
+}
+#SbM-blur{
+    z-index: -2;
+    position: absolute;
+    top: -90px;
+    left: -130px;
+}
+
+#SbM-txt .TxtDuplo{
+    width: 180px;
+}
+#SbM-txt{
+    margin-left: 100px;
+    width: 400px;
+    font-size: 20px;
+}
+#SbM-txt div:last-child{
+    margin-left: 120px;
+}
+
+
+
+#M-habilidades p:nth-child(2){
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#M-habilidades{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2% 5% 5% 5%;
+    width: 70%;
+    height: 850px;
+    background-color: #221d33;
+}
+#skills{
+    margin-top:60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 1200px;
+}
+#skills>div{
+    display: flex;
+    align-items: center;
+    margin: 25px 100px; 
+}
+#skills .hab-descricao hr{
+    width: 250px;
+}
+#skills .hab-descricao div{
+    color: white;
+    margin-bottom:10px;
+}
+
+.hab-guarda-icon{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(88, 70, 140, 10%);
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Projetos{
+    height: 100vh;
+    margin:auto;
+    margin-top: 300px;
+    width: 70%;
+    padding: 5%;
+    background-color: #221d33;
+}
+
+.P-projeto{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.ConteinerImgProj{
+    width: 500px;
+    height: 260px;
+    padding: 1%;
+    background-color: #756bc383 ;
+    text-align: center;
+}
+.DescProj h2 {
+    font-family: "Lalezar", system-ui;
+    margin-bottom: 0;
+    font-weight: 200;
+    font-size: 25;
+}
+.DescProj{
+    width: 400px;
+}
+.DescProj button{
+    margin-top: 80px;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+}
+.DescProj button a{
+    text-decoration: none;
+    color: #1E1C26;
+    font-size: 14px;
+    font-weight: 500;
+    font-family:  "Lalezar", system-ui;
+}
+
+
+#M-form-contato{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(217, 217, 217, 5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#M-form-contato form{
+    max-width: 550px;
+    min-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+#M-form-contato form label,input,textarea{
+    font-size: 18px;
+    width: 200px;   
+}
+#M-form-contato form label, textarea{
+    color: white;
+}
+#M-form-contato form div{
+    height: 80px;
+}
+#M-form-contato form div:first-child input, form div:nth-child(2) input{
+    width: 250px;
+}
+#M-form-contato form div:first-child input{
+    margin-right: 30px;
+}
+#M-form-contato form div:first-child{
+    width: 50%;
+}
+#M-form-contato form div:nth-child(3), div:nth-child(3) input{
+    width: 543.8px;
+    margin-left: 0;
+}
+#M-form-contato form div:last-child, div:last-child input{
+    width: 543.8px;
+    margin-left: 0;
+}
+#M-form-contato input{
+    border-bottom-style: 1px solid  #f7f0f0;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background:0% ;
+    color: white;
+    outline: 0;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+#M-form-contato textarea{
+    border-bottom-style: 1px solid  #f7f0f0;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background:0% ;
+    color: white;
+    outline: 0;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+

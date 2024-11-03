@@ -1,17 +1,14 @@
-<!DOCTYPE html>
 <html lang="pt-br">
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoãoV.Feliciano</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script src="code.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="escola.css">
+    <script src="escola.js" defer></script>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Julee&family=Kdam+Thmor+Pro&family=Khand:wght@300;400;500;600;700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Love+Light&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,53 +16,47 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/scrollreveal"></script>
-
 </head>
 <body>
-    <header class="headerDark" id="headerDark">
+    <!-- https://jsfiddle.net/mwt4bd4r/ -->
+     <header>
         <ul>
-            <li><a href="#inicio">INÍCIO</a></li>
-            <li><a href="#M-Sobre-mim">SOBRE MIM</a></li>
-            <li><a href="#habilidades">HABILIDADES</a></li>
-            <li><a href="#mformcontato">CONTATO</a></li>
+            <li><a href="">INÍCIO</a></li>
+            <li><a href="">SOBRE MIM</a></li>
+            <li><a href="">HABILIDADES</a></li>
+            <li><a href="">CONTATO</a></li>
             <li><a href="">CURRíCULO</a></li>
         </ul>
         <div id="H-Imgs">
             <a href="https://github.com/J-Feliciano"><img src="Imagens/github 1.png" alt=""></a>
             <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-509386300/"><img src="Imagens/linkedin 1.png" alt=""></a>
         </div>
-        <div class="trilho" id="trilho">
-            <div class="toggle"></div>
-        </div>
-    </header>
+     </header>
     <main>
-        <div class="Inicio" id="inicio">
-            <p class="TypingText" data-period="2000" data-type='[ "João Vitor Feliciano Pires", "Desenvolvedor Full-Stack"]'></p>
-            <div id="Tptxt-blur"><img src="Imagens/Gradient.png" alt=""></div>
+        <div class="Inicio">
+            <p class="TypingText" data-period="2000" data-type='[ "João Vitor Feliciano", "Desenvolvedor Full-Stack"]'></p>
         </div>
-
         <div id="M-Sobre-mim">
             <div id="SbMim-imagem">
-                <div id="SbM-foto"><img src="" alt="">
+                <div id="SbM-foto"><img src="Imagens/background dark.png" alt="">
                     <div id="SbM-dots"><img src="Imagens/dots 1.png" alt=""></div>
                     <div id="SbM-blur"><img src="Imagens/Gradient.png" alt=""></div>
                 </div>
             </div>
-            <div class="SbM-txt">
-                <div id="guarda-txtduplo"><div  id="txtduplo" class="TxtDuplo">Sobre Mim <span>Sobre Mim</span></div></div>
-                <div id="txtsbm">ㅤMeu nome é João Vitor, tenho 16 anos, apaixonado por tecnologia e estudante de TI. No momento estudando e me especializando em algumas linguagens de programação e de marcação que serão listadas mais abaixo do site.
+            <div id="SbM-txt">
+                <div id="guarda-txtduplo"><div class="TxtDuplo">Sobre Mim <span>Sobre Mim</span></div></div>
+                <div>ㅤMeu nome é João Vitor, tenho 16 anos, apaixonado por tecnologia e estudante de TI. No momento estudando e me especializando em algumas linguagens de programação e de marcação que serão listadas mais abaixo do site.
                     <br>
                     ㅤDesejando sempre aprender mais e com o objetivo de melhorar minhas habilidades para exercer o melhor que eu puder em meu trabalho.</div>
             </div>
         </div>
-        <div id="habilidades">
+        <div id="M-habilidades">
             <div id="guarda-txtduplo"><div class="TxtDuplo">Habilidades <span>Habilidades</span></div></div>
             <p>Abaixo algumas habilidades que possuo</p>
             
             <div id="skills">
                 <div><!--item 1-->
-                    <div id="guardaicon" class="habguardaicon ">
+                    <div class="hab-guarda-icon">
                         <div>
                             <img src="Imagens/html-css 1.png" alt="">
                         </div>
@@ -74,11 +65,11 @@
                         <div style="color: white; margin-bottom:10px;">
                             HTML  |  CSS
                         </div>
-                        <div class="ponteiro-mexendo"></div>
+                        <div class="ponteiro-mexendo"><hr></div>
                     </div>
                 </div>
                 <div><!--item 2-->
-                    <div id="guardaicon" class="habguardaicon ">
+                    <div class="hab-guarda-icon">
                         <div>
                             <img src="Imagens/Csharp.png" alt="">
                         </div>
@@ -87,11 +78,11 @@
                         <div>
                             C#
                         </div>
-                        <div class="ponteiro-mexendo"></div>
+                        <div class="ponteiro-mexendo"><hr></div>
                     </div>
                 </div>
                 <div><!--item 3-->
-                    <div id="guardaicon" class="habguardaicon ">
+                    <div class="hab-guarda-icon">
                         <div>
                             <img src="Imagens/js.png" alt="">
                         </div>
@@ -100,11 +91,11 @@
                         <div id="java">
                             JavaScript
                         </div>
-                        <div class="ponteiro-mexendo"></div>
+                        <div class="ponteiro-mexendo"><hr></div>
                     </div>
                 </div>
                 <div><!--item 4-->
-                    <div id="guardaicon" class="habguardaicon ">
+                    <div class="hab-guarda-icon">
                         <div>
                             <img src="Imagens/py.png" alt="">
                         </div>
@@ -113,11 +104,11 @@
                         <div>
                             Python
                         </div>
-                        <div class="ponteiro-mexendo"></div>
+                        <div class="ponteiro-mexendo"><hr></div>
                     </div>
                 </div>
                 <div><!--item 5-->
-                    <div  id="guardaicon" class="habguardaicon ">
+                    <div class="hab-guarda-icon">
                         <div>
                             <img src="Imagens/sql.png" alt="">
                         </div>
@@ -126,7 +117,7 @@
                         <div>
                             SQL
                         </div>
-                        
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -141,17 +132,17 @@
                     <button><a href="https://j-feliciano.github.io/SushiWa/" target="_blank">Ver projeto</a></button>
                 </div>
             </div>
-            <!-- <div class="P-projeto">
+            <div class="P-projeto">
                 <div class="ConteinerImgProj"><img src="" alt=""></div>
                 <div class="DescProj">
                     <h2>Título Projeto</h2><br>
                     <p>Descrição</p>
                     <button><a href="" target="_blank">Ver projeto</a></button>
                 </div>
-            </div> -->
+            </div>
         </div>
     </main>
-    <div id="mformcontato">
+    <div id="M-form-contato">
         <form action="">
             <div>
                 <label for="pnome">Primeiro nome</label><br>
